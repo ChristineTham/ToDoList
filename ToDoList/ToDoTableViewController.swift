@@ -66,6 +66,7 @@ class ToDoTableViewController: UITableViewController, ToDoCellDelegate {
             // Delete the row from the data source
             todos.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
+            ToDo.saveToDos(todos)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
@@ -104,6 +105,7 @@ class ToDoTableViewController: UITableViewController, ToDoCellDelegate {
             }
         }
         
+        ToDo.saveToDos(todos)
     }
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -124,6 +126,7 @@ class ToDoTableViewController: UITableViewController, ToDoCellDelegate {
             todo.isComplete = !todo.isComplete
             todos[indexPath.row] = todo
             tableView.reloadRows(at: [indexPath], with: .automatic)
+            ToDo.saveToDos(todos)
         }
     }
 }

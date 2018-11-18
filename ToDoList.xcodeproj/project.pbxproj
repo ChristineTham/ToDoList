@@ -14,6 +14,7 @@
 		87B6FB5521A139030094CA0F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6FB5421A139030094CA0F /* ToDo.swift */; };
 		87B6FB5721A1396F0094CA0F /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6FB5621A1396F0094CA0F /* ToDoTableViewController.swift */; };
 		87B6FB5921A1506D0094CA0F /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6FB5821A1506D0094CA0F /* ToDoViewController.swift */; };
+		87B6FB5B21A170200094CA0F /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6FB5A21A170200094CA0F /* ToDoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		87B6FB5421A139030094CA0F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		87B6FB5621A1396F0094CA0F /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		87B6FB5821A1506D0094CA0F /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		87B6FB5A21A170200094CA0F /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				87B6FB5421A139030094CA0F /* ToDo.swift */,
 				87B6FB5621A1396F0094CA0F /* ToDoTableViewController.swift */,
 				87B6FB5821A1506D0094CA0F /* ToDoViewController.swift */,
+				87B6FB5A21A170200094CA0F /* ToDoCell.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				87B6FB4321A137520094CA0F /* AppDelegate.swift in Sources */,
 				87B6FB5721A1396F0094CA0F /* ToDoTableViewController.swift in Sources */,
 				87B6FB5521A139030094CA0F /* ToDo.swift in Sources */,
+				87B6FB5B21A170200094CA0F /* ToDoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

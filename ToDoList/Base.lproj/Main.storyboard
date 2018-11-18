@@ -118,7 +118,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="pez-1P-gyF">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                                                    <rect key="frame" x="0.0" y="43" width="320" height="165"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="165" id="idr-wu-zox"/>
                                                     </constraints>
@@ -132,8 +132,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="eTr-eK-Jub" firstAttribute="top" secondItem="D6L-xT-W6I" secondAttribute="topMargin" constant="11" id="2Kr-gO-NWk"/>
-                                                <constraint firstItem="pez-1P-gyF" firstAttribute="top" secondItem="D6L-xT-W6I" secondAttribute="top" id="3Gm-MM-B4h"/>
                                                 <constraint firstItem="dr2-xE-9tx" firstAttribute="leading" secondItem="D6L-xT-W6I" secondAttribute="leadingMargin" constant="16" id="9sl-pi-Kym"/>
+                                                <constraint firstItem="pez-1P-gyF" firstAttribute="top" secondItem="dr2-xE-9tx" secondAttribute="bottom" id="AGj-Pv-Sg3"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="eTr-eK-Jub" secondAttribute="trailing" constant="16" id="Q5d-MB-zXe"/>
                                                 <constraint firstAttribute="trailing" secondItem="pez-1P-gyF" secondAttribute="trailing" id="Rfp-JR-JAw"/>
                                                 <constraint firstItem="pez-1P-gyF" firstAttribute="leading" secondItem="D6L-xT-W6I" secondAttribute="leading" id="lsQ-Hu-0tR"/>
